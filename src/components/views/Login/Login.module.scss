@@ -3,3 +3,21 @@
 .component {
   padding: $base-size;
 }
+
+.login {
+  margin: 50px auto;
+  text-align: center;
+  width: 50%;
+  border: solid #2B4C6F 2px;
+}
+
+.input {
+  margin: 10px 30px;
+}
+
+.button {
+  margin: 10px auto;
+  color: white;
+  background: #2B4C6F;
+  width: 30%;
+}

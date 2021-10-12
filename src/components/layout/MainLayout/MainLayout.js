@@ -4,7 +4,7 @@ import { AppBar, Toolbar, Container } from '@mui/material';
 
 import PageNav from '../PageNav/PageNav';
 
-const MainLayout = ({children}) => {
+const MainLayout = props => {
   return (
     <div className="MainLayout">
       <AppBar>
@@ -16,7 +16,7 @@ const MainLayout = ({children}) => {
       </AppBar>
       <Container maxWidth='lg'>
         <Toolbar />
-        {children}
+        {props.children}
       </Container>
     </div>
   );
