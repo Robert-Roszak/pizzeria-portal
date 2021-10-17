@@ -9,10 +9,10 @@ const Tables = ({bookingId, eventId}) => {
   return (
     <div className={styles.component}>
       <h2>Tables view</h2>
-      <Link to={process.env.PUBLIC_URL + '/tables/booking/new'} activeClassName= 'active'>New booking</Link>
-      <Link to={process.env.PUBLIC_URL + `/tables/booking/${bookingId}`} activeClassName= 'active'>View booking {bookingId}</Link>
-      <Link to={process.env.PUBLIC_URL + '/tables/event/new'} activeClassName= 'active'>New event</Link>
-      <Link to={process.env.PUBLIC_URL + `/tables/event/${eventId}`} activeClassName= 'active'>View event {eventId}</Link>
+      <Link to={process.env.PUBLIC_URL + '/tables/booking/new'}>New booking</Link>
+      <Link to={process.env.PUBLIC_URL + `/tables/booking/${bookingId}`}>View booking {bookingId}</Link>
+      <Link to={process.env.PUBLIC_URL + '/tables/event/new'}>New event</Link>
+      <Link to={process.env.PUBLIC_URL + `/tables/event/${eventId}`}>View event {eventId}</Link>
     </div>
   );
 };
